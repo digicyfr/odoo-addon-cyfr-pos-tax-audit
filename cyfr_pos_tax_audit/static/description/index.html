@@ -1,6 +1,26 @@
-<section class="oe_container">
-  <h2>POS Tax Setup Audit</h2>
-  <p>Review the normal POS catalog's company taxes and configured fiscal-position mappings before opening a till. Manager-only, read-only, bounded pages and CSV export.</p>
-  <p>Flags are advisory. Ask your accountant or localization owner about legally correct tax rates.</p>
-  <img src="screenshot.png" alt="POS tax audit demo scan with six base and fiscal-position rows" style="max-width: 100%; height: auto;"/>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>POS Tax Setup Audit for Odoo 19</title>
+</head>
+<body>
+  <section class="container">
+    <h1>POS Tax Setup Audit</h1>
+    <p class="lead">Review POS catalog taxes and configured fiscal-position mappings before opening a till.</p>
+    <p>Free, open-source Odoo 19 addon (LGPL-3). Requires the standard <code>point_of_sale</code> module.</p>
+    <h2>What it does</h2>
+    <ul>
+      <li>Scan eligible POS variants in bounded pages and compare company taxes with configured fiscal-position results.</li>
+      <li>Review advisory flags for empty or multiple taxes without changing products, taxes, orders, or receipts.</li>
+      <li>Open source and result tax records in Odoo, or export the current page to an escaped CSV.</li>
+      <li>Use English and Polish screens, guides, and demo data.</li>
+    </ul>
+    <h2>See it in Odoo</h2>
+    <p>Open Point of Sale → Configuration → Tax Setup Audit and scan a POS configuration.</p>
+    <img class="img-fluid" src="main_screenshot.png" width="1440" height="900" alt="POS Tax Setup Audit in Odoo 19 showing six advisory rows for two demo variants and three tax scenarios">
+    <h2>Compatibility and scope</h2>
+    <p>Tested on Odoo 19 Community. Tax flags are advisory, not a legal tax determination. Enterprise compatibility, authenticated other-user direct CSV access in a browser, and console-error capture remain unverified.</p>
+  </section>
+</body>
+</html>

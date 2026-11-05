@@ -14,6 +14,6 @@ Demo data includes taxed and zero-tax items, a restricted POS category, and two 
 
 ## Data and compatibility
 
-Scans and rows are Odoo transient records and expire with Odoo's normal transient cleanup. A new scan of the same page replaces its rows. Product, tax, fiscal-position, order and receipt records are never changed by this addon. Uninstall removes its menus, models and transient reports, leaving business data untouched. Version `19.0.1.0.0` supports Odoo 19 Community on Odoo.sh and self-hosted servers. Enterprise compatibility requires a separate acceptance run. Odoo Online does not install custom server addons.
+Scans and rows are Odoo transient records and expire with Odoo's normal transient cleanup. A new scan of the same page replaces its rows. Product, tax, fiscal-position, order and receipt records are never changed by this addon. Uninstall removes its menus, models and transient reports, leaving business data untouched. Version `19.0.1.0.1` supports Odoo 19 Community on Odoo.sh and self-hosted servers. Enterprise compatibility requires a separate acceptance run. Odoo Online does not install custom server addons.
 
 The module uses LGPL-3 (see `LICENSE`). Report bugs and security issues using the contact in `SECURITY.md`. Polish instructions are in `README.pl.md`.

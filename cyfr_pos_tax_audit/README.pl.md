@@ -12,4 +12,4 @@ Skan używa standardowej domeny produktów POS Odoo 19: firma, aktywność, moż
 
 Dane demonstracyjne zawierają produkt z podatkiem i bez podatku, ograniczoną kategorię POS oraz dwa scenariusze pozycji fiskalnych. Izolację między firmami sprawdzają tymczasowe rekordy testowe; dodatek nie tworzy demonstracyjnej firmy, dzięki czemu odinstalowanie usuwa jego dane demonstracyjne.
 
-Skan i jego wiersze są tymczasowe. Dodatek nie zmienia produktów, podatków, pozycji fiskalnych, zamówień ani paragonów. Po odinstalowaniu dane handlowe pozostają bez zmian. Wersja `19.0.1.0.0` jest przeznaczona dla Odoo 19 Community na Odoo.sh lub własnym serwerze; Enterprise wymaga osobnego testu.
+Skan i jego wiersze są tymczasowe. Dodatek nie zmienia produktów, podatków, pozycji fiskalnych, zamówień ani paragonów. Po odinstalowaniu dane handlowe pozostają bez zmian. Wersja `19.0.1.0.1` jest przeznaczona dla Odoo 19 Community na Odoo.sh lub własnym serwerze; Enterprise wymaga osobnego testu.
